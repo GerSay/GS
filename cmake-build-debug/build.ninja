@@ -73,6 +73,12 @@ build CMakeFiles/homework.dir/data_structures/vector/GS_vector.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\homework.dir
   OBJECT_FILE_DIR = CMakeFiles\homework.dir\data_structures\vector
 
+build CMakeFiles/homework.dir/data_structures/matrix/GS_matrix.cpp.obj: CXX_COMPILER__homework_Debug C$:/Users/krytm/CLionProjects/homework/data_structures/matrix/GS_matrix.cpp || cmake_object_order_depends_target_homework
+  DEP_FILE = CMakeFiles\homework.dir\data_structures\matrix\GS_matrix.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\homework.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework.dir\data_structures\matrix
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target homework
@@ -81,7 +87,7 @@ build CMakeFiles/homework.dir/data_structures/vector/GS_vector.cpp.obj: CXX_COMP
 #############################################
 # Link the executable homework.exe
 
-build homework.exe: CXX_EXECUTABLE_LINKER__homework_Debug CMakeFiles/homework.dir/main.cpp.obj CMakeFiles/homework.dir/maths_functions/triangulus_Delone/triangulus.cpp.obj CMakeFiles/homework.dir/data_structures/string/GS_string.cpp.obj CMakeFiles/homework.dir/data_structures/vector/GS_vector.cpp.obj
+build homework.exe: CXX_EXECUTABLE_LINKER__homework_Debug CMakeFiles/homework.dir/main.cpp.obj CMakeFiles/homework.dir/maths_functions/triangulus_Delone/triangulus.cpp.obj CMakeFiles/homework.dir/data_structures/string/GS_string.cpp.obj CMakeFiles/homework.dir/data_structures/vector/GS_vector.cpp.obj CMakeFiles/homework.dir/data_structures/matrix/GS_matrix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework.dir

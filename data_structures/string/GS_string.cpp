@@ -212,7 +212,6 @@ namespace GS {
         auto last_iter = begin() - 1;
         auto iter      = find(delim);
         while (last_iter != end()) {
-            // +1 skips the delimiter itself
             result.push_back(String(last_iter + 1, iter));
             last_iter = iter;
             iter      = find(delim, iter + 1);
